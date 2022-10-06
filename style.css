@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@font-face {
+    font-family:digital-7Italic;
+    src: url('Digital7Italic-RBM3.ttf');
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    text-align: center;
+}
+
+.container{
+    font-family: digital-7Italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 520px;
+    
+}
+
+.content{
+    background-color: white;
+    border-radius: 2px;
+    height: 70px;
+    width: 300px;
+    margin-top: 15px;
+}
+p {
+    margin: 0px 5px;
+    text-align: right;
+    font-size: 25px;
+}
+
+#second {
+    font-size: 40px;
+}
+
+
+
+.cal{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    height: 480px;
+    width: 320px;
+    align-items: center;
+    gap: 15px;
+    border-radius: 5px;
+}
+
+button{
+    background-color: #474646;
+    color: white;
+    height: 68px;
+    width: 68px;
+    font-size: larger;
+    border-radius: 70px;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.buttons div{
+    margin-bottom: 5px;
+}
+
+#operatorBtn, #equal{
+    background-color: #F69804;
+}
+
+#AC, #negative, #percentage{
+    background-color: #9F9F9F;
+}
+
+
+.zero{
+    width: 139px;
+}
+
+footer {
+    font-weight: bolder;
+    text-align: center;
+}
